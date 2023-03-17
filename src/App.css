@@ -1,0 +1,47 @@
+main {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+.message {
+  font-weight: bold;
+  font-size: 1.15rem;
+  text-align: center;
+}
+
+.wrong {
+  color: red;
+}
+
+.correct {
+  color: green;
+}
+
+.grid-container {
+  display: grid;
+  gap: 1rem;
+  min-width: 250px;
+}
+
+.guess-me {
+  width: 200px;
+  height: 200px;
+  place-self: center;
+}
+
+.color-btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.color-btn {
+  background-color: #d2dbf6;
+  padding: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
